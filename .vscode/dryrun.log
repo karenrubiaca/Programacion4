@@ -1,0 +1,35 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/maxi/Escritorio/casiEntregaLab4/LaboratorioP4SINEMPROLIJAR(1)/LaboratorioP4SINEMPROLIJAR/LaboratorioP4_casientrega'
+g++    -c -o main.o main.cpp
+g++ -g -w -Wall -c src/HostalController.cpp
+g++ -g -w -Wall -c src/Fabrica.cpp
+g++ -g -w -Wall -c src/Hostal.cpp
+g++ -g -w -Wall -c src/UsuarioController.cpp
+g++ -g -w -Wall -c src/Usuario.cpp
+g++ -g -w -Wall -c src/Huesped.cpp
+g++ -g -w -Wall -c src/Empleado.cpp
+g++ -g -w -Wall -c dataTypes/src/DataUsuario.cpp
+g++ -g -w -Wall -c dataTypes/src/DataEmpleado.cpp
+g++ -g -w -Wall -c dataTypes/src/DataHuesped.cpp
+g++ -g -w -Wall -c dataTypes/src/DtEmpleado.cpp
+g++ -g -w -Wall -c src/Habitacion.cpp
+g++ -g -w -Wall -c dataTypes/src/DtDescripcion.cpp
+g++ -g -w -Wall -c dataTypes/src/DataDescripcion.cpp
+g++ -g -w -Wall -c dataTypes/src/DataHabitacion.cpp
+g++ -g -w -Wall -c dataTypes/src/DataInfoBasicaHostal.cpp
+g++ -g -w -Wall -c dataTypes/src/DatasHostal.cpp
+g++ -g -w -Wall -c src/ReservaController.cpp
+g++ -g -w -Wall -c dataTypes/src/DtaHostal.cpp
+g++ -g -w -Wall -c dataTypes/src/DataFecha.cpp
+g++ -g -w -Wall -c src/Reserva.cpp
+g++ -g -w -Wall -c src/ReservaIndividual.cpp
+g++ -g -w -Wall -c src/ReservaGrupal.cpp
+g++ -g -w -Wall -c src/Estadia.cpp
+g++ -g -w -Wall -c src/Calificacion.cpp
+g++ -g -w -Wall -c dataTypes/src/DataComentario.cpp
+g++ -g -w -Wall -c src/Responde.cpp
+g++ -g -w -Wall -c src/Reloj.cpp
+g++ -g -w -Wall -c src/Notificacion.cpp
+g++ -g -w -Wall -o main main.o HostalController.o Fabrica.o Hostal.o UsuarioController.o Usuario.o Huesped.o Empleado.o DataUsuario.o DataEmpleado.o DataHuesped.o DtEmpleado.o Habitacion.o DtDescripcion.o DataDescripcion.o DataHabitacion.o DataInfoBasicaHostal.o DatasHostal.o ReservaController.o DtaHostal.o DataFecha.o Reserva.o ReservaIndividual.o ReservaGrupal.o Estadia.o Calificacion.o Responde.o DataComentario.o Reloj.o Notificacion.o
+make: Leaving directory '/home/maxi/Escritorio/casiEntregaLab4/LaboratorioP4SINEMPROLIJAR(1)/LaboratorioP4SINEMPROLIJAR/LaboratorioP4_casientrega'
+ 
